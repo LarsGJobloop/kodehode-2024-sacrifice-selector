@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>sacrifice-selector</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Remove unused Dynamically Linked Libraries (DLL) -->
+    <PublishTrimmed>true</PublishTrimmed>
+    <!-- Further trim down the amount of DLLs, might break reflection -->
+    <TrimMode>link</TrimMode> 
+    <!-- Bundle the .NET Runtime -->
+    <SelfContained>true</SelfContained>
+    <!-- Wrap everything into a single file -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <!-- Compile to native code Ahead of Time (AOT) -->
+    <EnableNativeAot>true</EnableNativeAot>
+  </PropertyGroup>
+
+</Project>
