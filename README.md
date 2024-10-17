@@ -8,7 +8,7 @@ The way we persist the data here using just strings are less than ideal, but it'
 
 Feel free to play around with the project—add more patterns, refactor parts, or improve the persistence layer (maybe switch to JSON or a database?).
 
-> [!INFO]
+> [!NOTE]
 > The code is rather heavily commented which can make it hard to follow the flow of logic.
 > I have added a recommended extension to the project which allows you to hide/unhide them.
 > Install this in VS Code and you can toggle comments on/off by running:<br>
