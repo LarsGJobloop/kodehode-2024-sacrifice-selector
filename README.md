@@ -12,7 +12,7 @@ Feel free to play around with the project—add more patterns, refactor parts, o
 > The code is rather heavily commented which can make it hard to follow the flow of logic.
 > I have added a recommended extension to the project which allows you to hide/unhide them.
 > Install this in VS Code and you can toggle comments on/off by running:<br>
-> Windows: `Ctrl + Shift + P` > Hide Comments
+> Windows: `Ctrl + Shift + P` > Hide Comments<br>
 > iOS: `Command + Shift + P` > Hide Comments
 
 ## To run
